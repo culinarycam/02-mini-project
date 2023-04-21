@@ -1,4 +1,72 @@
 body {
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     color: white;
+}
+
+header {
+    text-align: center;
+    color: palevioletred;
+}
+
+header p {
+    color: white;
+}
+
+header,
+section,
+footer { 
+    padding: 20px;
+}
+
+section { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div h2 {
+    position: absolute;
+    top: -40px;
+    z-index: 2;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(60, 62, 63);
+    padding: .25rem;
+    color: palevioletred;
+}
+
+div p {
+    padding-bottom: 1rem;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: 2px dashed white;
+padding: 5px;
+align-items: center;
+position: relative;
+flex: .25 .5 30%;    
+color: palevioletred;
+
+
+}
+
+.code-container {
+display: flex;
+background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%, 
+    rgba(232, 102, 236, 0.6) 100%
+);
+border: 10px;
+justify-content: flex-start;
+width: 100%;
+}
+
+pre code {
+    color: white;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding: 10px;
 }
