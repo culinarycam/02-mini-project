@@ -22,6 +22,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 div h2 {
@@ -44,11 +45,13 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 border: 2px dashed white;
-padding: 5px;
+padding: 30px;
 align-items: center;
 position: relative;
-flex: .25 .5 30%;    
+flex: 1 1 30%;    
 color: palevioletred;
+margin-bottom: 20px;
+height: auto;
 
 
 }
@@ -62,6 +65,7 @@ background-image: linear-gradient(
 border: 10px;
 justify-content: flex-start;
 width: 100%;
+border-radius: 10px;
 }
 
 pre code {
@@ -70,3 +74,4 @@ pre code {
     line-height: 1.5;
     padding: 10px;
 }
+
