@@ -6,8 +6,13 @@ h1 {
     text-align: center;
 }
 
-h2 {
+main {
+display: block;
+}
 
+.card-header {
+    position: relative;
+    margin-top: -20px;
 }
 
 .row {
@@ -15,3 +20,16 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.linear-gradient-background {
+    background-image: -moz-linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}
+
